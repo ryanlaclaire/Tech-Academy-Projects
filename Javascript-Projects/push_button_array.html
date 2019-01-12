@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        /*set CSS style for the button*/
+        button{font-size:1.5em;font-weight:bold;height:75px;width:100px;} 
+    </style>   
+</head>
+<body>
+    <!--Create the button with HTML-->
+    <h1 id="countdown">Click button for colors!</h1>
+    <br /><br />
+    <button class="btn" onclick="up()">Start!</button>
+
+    <script>
+        //Create the variable for the counter
+        var i = 0;
+        //Creat the array
+        var myArray = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1, "Happy New Year!"];
+        //This is the function that will run the countdown
+        function up() {
+            if (i < myArray.length) {
+                document.getElementById('countdown').style.color = "red";
+                document.getElementById('countdown').innerHTML = myArray[i];
+                i++;
+            }
+            //This determines the time in milliseconds of the pause between run times of the array (1000 equals 1 second)
+            window.setTimeout(up, 250);
+        }
+    </script>
+
+
+
+</body>
+</html>

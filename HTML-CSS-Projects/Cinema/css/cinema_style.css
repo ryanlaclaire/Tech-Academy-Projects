@@ -1,0 +1,45 @@
+h1 {
+    color:antiquewhite;
+    font-family: roboto;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+h2 {
+    color:blue;
+    font-family:inherit;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.card-groups {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: space-evenly;
+}
+
+.cards {
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: space-evenly;
+    flex-flow: column wrap;
+}
+
+.card-img-top {
+    height: 215px;
+}
+
+
+.card-footer {
+    margin: 1rem 0;
+}
+
+@media (min-width: 576px) {
+    .card-groups {
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        align-items: space-evenly;
+    }
+}
+

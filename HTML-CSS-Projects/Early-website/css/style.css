@@ -1,0 +1,149 @@
+.navbar {
+    background-color: lightgray;
+}
+
+body {
+    background-color: lightblue;
+}
+
+
+@media (min-width: 768px) {
+    #home {
+        background: url(../img/black-and-white-computer.jpg) no-repeat 50% 50%;
+        background-attachment: fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+        display: block;
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 600px;
+        color: #fff;
+    }
+}
+
+.pic_center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: auto;
+
+}
+
+.icon::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.login::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f007";
+}
+
+.tps::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 400; content: "\f1ea";
+}
+
+.twitter::before {
+    font-family: "Font Awesome 5 Brands"; content: "\f099";
+}
+
+.fa-stack {
+    position: relative;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    vertical-align: middle;
+}
+
+.fa-4x {
+    font-size: 4em;
+}
+
+
+.fa-stack-2x {
+    font-size: 2em;
+}
+.fa-stack-1x, .fa-stack-2x {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: auto;
+    -moz-osx-font-smoothing: grayscale;
+}
+.text-primary {
+    color: #fed136;
+}
+
+footer ul.social-buttons {
+    margin-bottom: 0;
+}
+
+footer ul.quicklinks {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-transform: none;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 40px;
+}
+
+#bio {
+    background-color: darkgray;
+}
+@media (min-width:768px) {
+    #bio {
+        padding-top: 70px;
+        padding-bottom: 75px;
+    }
+
+    #skills {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+
+    #portfolio {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+
+    #experience {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+
+    .LI-profile-badge {
+        margin-bottom: 25px;
+    }
+
+    #contact {
+        padding-bottom: 25px;
+    }
+}
+
+.navbar .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+.navbar .navbar-brand {
+    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    color: darkcyan;
+}
+
+

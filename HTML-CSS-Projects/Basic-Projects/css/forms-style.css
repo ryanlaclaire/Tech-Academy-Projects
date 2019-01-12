@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.superh1 {
+    width: 100%;
+    color:aliceblue;
+    font-size: 50px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(47, 0, 255);
+}
+
+#topForm {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    color:#000;
+    font-size: 20px;
+    background-color: #B0C4DE;
+    border: 1px solid black;
+}
+
+.user-pass {
+    padding-top: 15px;
+    width: 40%;
+}
+
+.user-inputs {
+    margin-bottom: 15px;
+}
+
+.form-select {
+    width: 60%;
+    margin: 20px 0;
+}
+
+.text-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.h2-width {
+    width: 100%;
+}
+
+h2 {
+    color: blue;
+    text-align: center
+}
+
+#textBox {
+    margin: 20px 0;
+    display: block;
+    width: 90%;
+    height: 250px;
+}
+
+.vehicle-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.vehicle-inputs {
+    margin: 20px 0;
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.trans-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.trans-inputs {
+    margin: 20px 0;
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.form-submit {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.submit-button {
+    width: 25%;
+    padding: 10px;
+}
+
+.paragraph-box {
+    margin-top: 20px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: grey;
+    color: aliceblue;
+}
+
+.p-1 {
+   padding: 10px;
+}
+
+.p-2 {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70%;
+}
+
+
+.list{
+    color: blue;
+    font-size: 16px;
+    line-height: 200%;
+}
+
+@media only screen and (min-width: 426px) {
+    .vehicle-inputs {
+        justify-content: space-around;
+    }
+    .trans-inputs {
+        justify-content: space-around;
+    }
+}

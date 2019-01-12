@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/forms-style.css">
+        <title>Forms</title>
+        
+    </head>
+    <body>
+        <div class="main-content">
+            <h1 class="superh1">HTML Forms</h1>
+
+            <form id="topForm" name="login" action="process-form.php" method="post">
+                <!-- With Method, you have two choices. Post and Get (default). with get
+                the browser will show the information. With post, the data is sent 
+                behind the scenes. -->
+                <div class="user-pass">
+                    <div class="user-inputs">User name:
+                    <input type="text" name="username" size="30"></div>
+                    <div class="user-inputs">Password:
+                    <input type="password" name="password" size="30"></div>
+                </div>
+                <div class="form-select">
+                    Favorite car brand:
+                    <select name="cars">
+                        <option value="">Choose One</option>
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="fiat">Fiat</option>
+                        <option value="audi">Audi</option>
+                        <option value="ford">Ford</option>
+                        <option value="chevrolet">Chevy</option>
+                        <option value="cadillac">Cadillac</option>
+                        <option value="lexus">Lexus</option>
+                        <option value="mercedes">Mercedes</option>
+                        <option value="bmw">BMW</option>
+                    </select>
+                </div>
+                <div class="text-box">
+                    <h2 class="h2-width">Comments:</h2>
+                    <textarea id="textBox" name="comments"></textarea>
+                </div>
+                <div class="vehicle-box">
+                    <h2 class="h2-width">Vehicle Type:</h2>
+                    <div class="vehicle-inputs">
+                        <div><input type="checkbox" name="vehicle" value="Bike"> Bike </div>
+                        <div><input type="checkbox" name="vehicle" value="Car"> Car</div>
+                    </div>
+                </div>
+                <div class="trans-box">
+                    <h2 class="h2-width">Transmission type:</h2>
+                    <div class= "trans-inputs">
+                        <div><input type="radio" name="transmission" value="automatic"> Automatic </div> 
+                        <div><input type="radio" name="transmission" value="manual"> Manual </div>
+                        <div><input type="radio" name="transmission" value="flintstone"> Foot Power</div>
+                    </div>
+                </div>
+                <div class="form-submit">
+                    <input class="submit-button" type="submit">
+                </div>
+            </form>
+            <div class="paragraph-box">
+                <div class="p-1">
+                    <p>Tools like Dreamweaver are great, especially if you are building old-style web sites based
+                        on tables, sliced images, etc. But if you want to be able to build modern looking websites,
+                        then these tools will get in the way of you learning and will actually slow you down!
+                    </p>
+                </div>
+                <div class="p-2">
+                    <p><h4 class="head-center">CSS Layout Types</h4>
+                        <ul class="list">
+                            <li>Static Design</li>
+                            <p>- Does not change. The size stays the same regardless of browser size. It's not flexible.</p>
+                            <li>Liquid Design</li>
+                            <p>- Also flows and flexes but will not resize items like images, search box, button placement.</p>
+                            <li>Adaptive Design</li>
+                            <p>Produces a site that is fixed pixel with some elements of responsive.</p>
+                            <li>Responsive Design</li>
+                            <p>- It flows and changes based on the size of the window. The most flexible. Looks good on any device. parts of the page will resize</p>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <form name="signup">
+
+
+        </form>
+    </body>
+</html>
