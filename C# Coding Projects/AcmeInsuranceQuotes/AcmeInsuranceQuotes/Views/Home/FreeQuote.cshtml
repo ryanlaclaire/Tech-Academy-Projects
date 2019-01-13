@@ -1,0 +1,86 @@
+﻿@model  AcmeInsuranceQuotes.Models.Quote
+
+@{
+    ViewBag.Title = "FreeQuote";
+}
+
+<h2>FreeQuote</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LastName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EmailAddress)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateOfBirth)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CarYear)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CarMake)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CarModel)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DUI)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SpeedingTickets)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CoverageType)
+        </th>
+        <th>
+            Monthly @Html.DisplayNameFor(model => model.QuotePrice)
+        </th>
+        <th></th>
+    </tr>
+
+    <tr>
+        <td>
+            @Html.DisplayFor(model => model.FirstName)
+        </td>
+        <td>
+            @Html.DisplayFor(model => model.LastName)
+        </td>
+        <td>
+            @Html.DisplayFor(model => model.EmailAddress)
+        </td>
+        <td>
+            @Html.DisplayFor(model => model.DateOfBirth)
+        </td>
+        <td>
+            @Html.DisplayFor(model => model.CarYear)
+        </td>
+        <td>
+            @Html.DisplayFor(model => model.CarMake)
+        </td>
+        <td>
+            @Html.DisplayFor(model => model.CarModel)
+        </td>
+        <td>
+            @Html.DisplayFor(model => model.DUI)
+        </td>
+        <td>
+            @Html.DisplayFor(model => model.SpeedingTickets)
+        </td>
+        <td>
+            @Html.DisplayFor(model => model.CoverageType)
+        </td>
+        <td>
+            @Html.DisplayFor(model => model.QuotePrice)
+        </td>
+    </tr>
+</table>
+
+<div>
+    @Html.ActionLink("Return to Home", "Index")
+</div>

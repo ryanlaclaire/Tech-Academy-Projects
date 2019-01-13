@@ -1,0 +1,60 @@
+﻿@model AcmeInsuranceQuotes.Models.Quote
+<div class="row no-gutters m-3">
+    <div class="card col-sm-12 col-md-10 col-lg-12 shadow">
+        <div class="card-header text-center">
+            <h3 class="m-0">Free Quote!</h3>
+        </div>
+        <div class="card-body">
+            @using (Html.BeginForm("FreeQuote", "Home", FormMethod.Post))
+            {
+                <div class="row no-gutters">
+                    <div class="form-group col-md-12">
+                        First Name
+                        <input name="FirstName" type="text" class="form-control" required />
+                    </div>
+                    <div class="form-group col-md-12">
+                        Last Name
+                        <input name="LastName" type="text" class="form-control" required />
+                    </div>
+                    <div class="form-group col-md-12">
+                        Email Address
+                        <input name="EmailAddress" type="email" class="form-control" required />
+                    </div>
+                    <div class="form-group col-md-12">
+                        Date of Birth
+                        <input name="DateOfBirth" type="date" class="form-control" required />
+                    </div>
+                    <div class="form-group col-md-12">
+                        Vehicle Year
+                        <input name="CarYear" type="date" class="form-control" required />
+                    </div>
+                    <div class="form-group col-md-12">
+                        Vehicle Make
+                        <input name="CarMake" type="text" class="form-control" required />
+                    </div>
+                    <div class="form-group col-md-12">
+                        Vehicle Model
+                        <input name="CarModel" type="text" class="form-control" required />
+                    </div>
+                    <div class="form-group col-md-12">
+                        How many speeding tickets do you have?
+                        <input name="SpeedingTickets" type="number" class="form-control" required />
+                    </div>
+                    <div class="form-group col-md-6 custom-control custom-radio">
+                        Have you ever had a DUI? <br />
+                        <input class="btn" type="radio" name="DUI" value="true" /> Yes
+                        <input class="btn" type="radio" name="DUI" value="false" /> No<br />
+                    </div>
+                    <div class="form-group col-md-6 custom-control custom-radio">
+                        Would you like Full coverage or Liability?<br />
+                        <input class="btn" type="radio" name="CoverageType" value="Full" /> Full Coverage
+                        <input class="btn" type="radio" name="CoverageType" value="Liability" /> Liability Coverage<br />
+                    </div>
+                    <br />
+                    <button type="submit" class="btn btn-block btn-primary">Calculate</button>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
