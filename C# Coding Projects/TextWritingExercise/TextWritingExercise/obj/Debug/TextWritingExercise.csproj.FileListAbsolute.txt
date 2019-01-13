@@ -1,0 +1,7 @@
+C:\Users\ryanl\source\repos\Tech-Academy-Projects\TextWritingExercise\TextWritingExercise\bin\Debug\TextWritingExercise.exe.config
+C:\Users\ryanl\source\repos\Tech-Academy-Projects\TextWritingExercise\TextWritingExercise\bin\Debug\TextWritingExercise.exe
+C:\Users\ryanl\source\repos\Tech-Academy-Projects\TextWritingExercise\TextWritingExercise\bin\Debug\TextWritingExercise.pdb
+C:\Users\ryanl\source\repos\Tech-Academy-Projects\TextWritingExercise\TextWritingExercise\obj\Debug\TextWritingExercise.csprojAssemblyReference.cache
+C:\Users\ryanl\source\repos\Tech-Academy-Projects\TextWritingExercise\TextWritingExercise\obj\Debug\TextWritingExercise.csproj.CoreCompileInputs.cache
+C:\Users\ryanl\source\repos\Tech-Academy-Projects\TextWritingExercise\TextWritingExercise\obj\Debug\TextWritingExercise.exe
+C:\Users\ryanl\source\repos\Tech-Academy-Projects\TextWritingExercise\TextWritingExercise\obj\Debug\TextWritingExercise.pdb
