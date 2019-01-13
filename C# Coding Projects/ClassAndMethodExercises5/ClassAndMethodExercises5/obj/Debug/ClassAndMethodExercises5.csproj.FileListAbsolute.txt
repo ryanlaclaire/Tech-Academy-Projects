@@ -1,0 +1,7 @@
+C:\Users\ryanl\source\repos\ClassAndMethodExercises5\ClassAndMethodExercises5\obj\Debug\ClassAndMethodExercises5.csprojAssemblyReference.cache
+C:\Users\ryanl\source\repos\ClassAndMethodExercises5\ClassAndMethodExercises5\obj\Debug\ClassAndMethodExercises5.csproj.CoreCompileInputs.cache
+C:\Users\ryanl\source\repos\ClassAndMethodExercises5\ClassAndMethodExercises5\bin\Debug\ClassAndMethodExercises5.exe.config
+C:\Users\ryanl\source\repos\ClassAndMethodExercises5\ClassAndMethodExercises5\bin\Debug\ClassAndMethodExercises5.exe
+C:\Users\ryanl\source\repos\ClassAndMethodExercises5\ClassAndMethodExercises5\bin\Debug\ClassAndMethodExercises5.pdb
+C:\Users\ryanl\source\repos\ClassAndMethodExercises5\ClassAndMethodExercises5\obj\Debug\ClassAndMethodExercises5.exe
+C:\Users\ryanl\source\repos\ClassAndMethodExercises5\ClassAndMethodExercises5\obj\Debug\ClassAndMethodExercises5.pdb
