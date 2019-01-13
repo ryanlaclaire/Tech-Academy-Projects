@@ -1,0 +1,7 @@
+C:\Users\ryanl\source\repos\ClassAndMethodExercise2\ClassAndMethodExercise2\bin\Debug\ClassAndMethodExercise2.exe.config
+C:\Users\ryanl\source\repos\ClassAndMethodExercise2\ClassAndMethodExercise2\bin\Debug\ClassAndMethodExercise2.exe
+C:\Users\ryanl\source\repos\ClassAndMethodExercise2\ClassAndMethodExercise2\bin\Debug\ClassAndMethodExercise2.pdb
+C:\Users\ryanl\source\repos\ClassAndMethodExercise2\ClassAndMethodExercise2\obj\Debug\ClassAndMethodExercise2.csprojAssemblyReference.cache
+C:\Users\ryanl\source\repos\ClassAndMethodExercise2\ClassAndMethodExercise2\obj\Debug\ClassAndMethodExercise2.csproj.CoreCompileInputs.cache
+C:\Users\ryanl\source\repos\ClassAndMethodExercise2\ClassAndMethodExercise2\obj\Debug\ClassAndMethodExercise2.exe
+C:\Users\ryanl\source\repos\ClassAndMethodExercise2\ClassAndMethodExercise2\obj\Debug\ClassAndMethodExercise2.pdb
