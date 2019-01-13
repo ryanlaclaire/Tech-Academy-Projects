@@ -1,0 +1,6 @@
+C:\Users\ryanl\source\repos\Strings Exercises\Strings Exercises\bin\Debug\Strings Exercises.exe.config
+C:\Users\ryanl\source\repos\Strings Exercises\Strings Exercises\bin\Debug\Strings Exercises.exe
+C:\Users\ryanl\source\repos\Strings Exercises\Strings Exercises\bin\Debug\Strings Exercises.pdb
+C:\Users\ryanl\source\repos\Strings Exercises\Strings Exercises\obj\Debug\Strings Exercises.csproj.CoreCompileInputs.cache
+C:\Users\ryanl\source\repos\Strings Exercises\Strings Exercises\obj\Debug\Strings Exercises.exe
+C:\Users\ryanl\source\repos\Strings Exercises\Strings Exercises\obj\Debug\Strings Exercises.pdb
