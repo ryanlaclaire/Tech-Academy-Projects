@@ -1,0 +1,7 @@
+C:\Users\ryanl\source\repos\EmployeeList2\EmployeeList2\bin\Debug\EmployeeList2.exe.config
+C:\Users\ryanl\source\repos\EmployeeList2\EmployeeList2\bin\Debug\EmployeeList2.exe
+C:\Users\ryanl\source\repos\EmployeeList2\EmployeeList2\bin\Debug\EmployeeList2.pdb
+C:\Users\ryanl\source\repos\EmployeeList2\EmployeeList2\obj\Debug\EmployeeList2.csprojAssemblyReference.cache
+C:\Users\ryanl\source\repos\EmployeeList2\EmployeeList2\obj\Debug\EmployeeList2.csproj.CoreCompileInputs.cache
+C:\Users\ryanl\source\repos\EmployeeList2\EmployeeList2\obj\Debug\EmployeeList2.exe
+C:\Users\ryanl\source\repos\EmployeeList2\EmployeeList2\obj\Debug\EmployeeList2.pdb
