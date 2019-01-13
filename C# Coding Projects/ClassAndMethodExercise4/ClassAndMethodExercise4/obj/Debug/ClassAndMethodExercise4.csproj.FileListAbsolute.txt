@@ -1,0 +1,7 @@
+C:\Users\ryanl\source\repos\ClassAndMethodExercise4\ClassAndMethodExercise4\bin\Debug\ClassAndMethodExercise4.exe.config
+C:\Users\ryanl\source\repos\ClassAndMethodExercise4\ClassAndMethodExercise4\bin\Debug\ClassAndMethodExercise4.exe
+C:\Users\ryanl\source\repos\ClassAndMethodExercise4\ClassAndMethodExercise4\bin\Debug\ClassAndMethodExercise4.pdb
+C:\Users\ryanl\source\repos\ClassAndMethodExercise4\ClassAndMethodExercise4\obj\Debug\ClassAndMethodExercise4.csprojAssemblyReference.cache
+C:\Users\ryanl\source\repos\ClassAndMethodExercise4\ClassAndMethodExercise4\obj\Debug\ClassAndMethodExercise4.csproj.CoreCompileInputs.cache
+C:\Users\ryanl\source\repos\ClassAndMethodExercise4\ClassAndMethodExercise4\obj\Debug\ClassAndMethodExercise4.exe
+C:\Users\ryanl\source\repos\ClassAndMethodExercise4\ClassAndMethodExercise4\obj\Debug\ClassAndMethodExercise4.pdb
