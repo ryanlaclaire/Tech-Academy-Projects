@@ -1,0 +1,7 @@
+C:\Users\ryanl\source\repos\Tech-Academy-Projects\LambdaExercise\LambdaExercise\bin\Debug\LambdaExercise.exe.config
+C:\Users\ryanl\source\repos\Tech-Academy-Projects\LambdaExercise\LambdaExercise\bin\Debug\LambdaExercise.exe
+C:\Users\ryanl\source\repos\Tech-Academy-Projects\LambdaExercise\LambdaExercise\bin\Debug\LambdaExercise.pdb
+C:\Users\ryanl\source\repos\Tech-Academy-Projects\LambdaExercise\LambdaExercise\obj\Debug\LambdaExercise.csprojAssemblyReference.cache
+C:\Users\ryanl\source\repos\Tech-Academy-Projects\LambdaExercise\LambdaExercise\obj\Debug\LambdaExercise.csproj.CoreCompileInputs.cache
+C:\Users\ryanl\source\repos\Tech-Academy-Projects\LambdaExercise\LambdaExercise\obj\Debug\LambdaExercise.exe
+C:\Users\ryanl\source\repos\Tech-Academy-Projects\LambdaExercise\LambdaExercise\obj\Debug\LambdaExercise.pdb
