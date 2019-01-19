@@ -1,14 +1,11 @@
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
     <title></title>
     <link rel="stylesheet" href="css/pushbutton.css">
-    <style>
-        /*setting CSS for the divs and button*/
-        
-    </style>
 
 </head>
 <body>
@@ -17,60 +14,55 @@
     <div id="start_over">
         <div class="colors-box">
             <h1 id="colors" class="set-box top-box">Click button for colors!</h1>
-            <div class="set-box">Green</div>
-            <div class="set-box">Green</div>
-            <div class="set-box">Green</div>
-            <div class="set-box">Green</div>
-            <div class="set-box">Green</div>
+            <div id="boxes" class="set-box">Green</div>
+            <div id="boxes" class="set-box">Green</div>
+            <div id="boxes" class="set-box">Green</div>
+            <div id="boxes" class="set-box">Green</div>
+            <div id="boxes" class="set-box">Green</div>
         </div>
         <div class="button-box">
             <button class="btn" onclick="up()">Red!</button>
             <button class="btn" onclick="down()">Blue!</button>
-            <!-- <button class="btn" onclick="reset()">Reset!</button> -->
+            <button class="btn" onclick="reset()">Reset!</button>
         </div>
     </div>
     <script>
-        //Set variables
-        var i = 0;
-        var j = 0;
-        var k = 0;
-        var divs = document.getElementsByClassName("set-box");
-        var btns = document.getElementsByClassName("btn");
         //Create function up
         function up() {
-            if (i < divs.length) {
+
+            var divs = document.getElementsByClassName("set-box");
+            var btns = document.getElementsByClassName("btn");
+
+            for (i=0;i < divs.length;i++) {
                 divs[i].style.backgroundColor = "red";
                 divs[i].innerHTML = "Red";
                 btns[0].innerHTML = "Done";
-                i++;
             }
-            //set speed of function up
-            window.setTimeout(up, 150);
         }
         //Create function down
         function down() {
-            if (j < divs.length) {
+
+            var divs = document.getElementsByClassName("set-box");
+            var btns = document.getElementsByClassName("btn");
+
+            for (j=0;j < divs.length;j++) {
                 divs[j].style.backgroundColor = "blue";
                 divs[j].innerHTML = "Blue";
                 btns[1].innerHTML = "Done";
-                j++;
             }
-            //set speed of function down
-            window.setTimeout(down, 150);
         };
         //Create function reset
-        // function reset() {
-        //     if (k < divs.length) {
-        //         divs[k].style.backgroundColor = "green";
-        //         divs[k].innerHTML = "Green";
-        //         btns[0].innerHTML = "Red";
-        //         btns[1].innerHTML = "Blue";
-        //         k++;
-        //     }
-        //     //set speed of function reset
-        //     window.setTimeout(reset, 150);
-        //     document.getElementById("start_over").reset;
-        // };
+        function reset() {
+            var divs = document.getElementsByClassName("set-box");
+            var btns = document.getElementsByClassName("btn");
+
+            for (k=0;k < divs.length;k++) {
+                divs[k].style.backgroundColor = "green";
+                divs[k].innerHTML = "Green";
+                btns[0].innerHTML = "Red";
+                btns[1].innerHTML = "Blue";
+            }
+        };
     </script>
 
 </body>
